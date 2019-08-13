@@ -4,7 +4,7 @@ from django.shortcuts import render
 from django.views.generic import TemplateView
 
 # enter your api key here
-api_key = 'AIzaSyAHp-nn7jhznsZCEEvqwdFKf3H2WSn-59k'
+api_key = '<YOUR API KEY>'
 url = 'https://maps.googleapis.com/maps/api/geocode/json?'
 
 latitute = pd.Series([])
